@@ -1,0 +1,23 @@
+{
+    "name": "fixik/ipgeocoder",
+    "description": "Get geo location by ip",
+    "keywords": ["geoip", "ipinfo", "geocoding", "laravel"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Oleg Marko",
+            "email": "olegmarko7@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Fixik\\Geocode\\": "src"
+        }
+    }
+}
